@@ -44,6 +44,6 @@ header
         li.nav-item
           a.nav-link href="#{Routes.page_path(@conn, :show, "about")}"= gettext "About"
         li.nav-item
-          a.nav-link target="_blank" href="http://slack-ru.hexlet.io/"= gettext "Community"
+          a.nav-link target="_blank" href="https://slack-ru.hexlet.io/"= gettext "Community"
 
       = render HexletBasicsWeb.Layout.SharedView, "auth.html", assigns
